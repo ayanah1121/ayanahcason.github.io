@@ -102,35 +102,33 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #6e6e6e;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
-		line-height: 1.75em;
-	}
+	color: #5a5275; /* muted lavender-gray for body text */
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16pt;
+	font-weight: 400;
+	line-height: 1.75em;
+}
 
-	a {
-		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #4eb980;
-		text-decoration: none;
-	}
+a {
+	-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	border-bottom: dotted 1px;
+	color: #8b5cf6; /* soft lavender-purple links */
+	text-decoration: none;
+}
 
-		a:hover {
-			border-bottom-color: transparent;
-		}
+a:hover {
+	border-bottom-color: transparent;
+	color: #6d28d9; /* deeper purple on hover */
+}
 
-	strong, b {
-		font-weight: 600;
-		color: #5b5b5b;
-	}
+strong, b {
+	font-weight: 600;
+	color: #4c1d95; /* rich dark purple for emphasis */
+}
 
-	em, i {
-		font-style: italic;
-	}
 
 	p, ul, ol, dl, table, blockquote, form {
 		margin: 0 0 2em 0;
