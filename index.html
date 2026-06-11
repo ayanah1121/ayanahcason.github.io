@@ -1,279 +1,305 @@
-<!DOCTYPE HTML>
-<!--
-	Ayanah L Cason
-	she/her/hers | ayanah1121@gmail.com
-	2nd Year Graduate Student in the Fisk Vanderbilt Masters to Ph.D Program
--->
-<html>
-	<head>
-		<title>Directive by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ayanah L Cason is an astrophysicist exploring metallicity, stellar evolution, and the stories hidden in cosmic data."
+    />
+    <title>Ayanah L Cason | Computational Scientist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="space-backdrop" aria-hidden="true">
+      <div class="nebula"></div>
+      <div class="stars stars-small"></div>
+      <div class="stars stars-large"></div>
+    </div>
 
-		<!-- Header -->
-		<div id="header">
-		    <h1 class="purple-name">Ayanah L Cason</h1>
-		    <p>she/her/hers | ayanah1121@gmail.com 
-		    <br />
-		    2nd Year Graduate Student in the Fisk Vanderbilt Masters to Ph.D Program.</p>
-		</div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Ayanah Cason, home">
+        <span class="brand-orbit" aria-hidden="true"></span>
+        <span>AC</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#publications">Publications</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+    </header>
 
-		<!-- Main -->
-			<div id="main">
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> Computational Scientist · Masters-to-PhD Student</p>
+          <h1 class="hero-statement">
+            I’m Ayanah Cason, an early career scientist interested in how metallicity affects the
+            evolution of the systems in the Universe.
+          </h1>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">Explore my universe <span>↓</span></a>
+            <a class="button button-ghost" href="#publications">View my work <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Portrait of Ayanah in an orbital illustration">
+          <div class="binary-orbit" aria-hidden="true">
+            <svg class="binary-paths" viewBox="-320 -280 640 560">
+              <ellipse class="binary-path binary-path-primary" cx="24.5" cy="0" rx="204.3" ry="202.8"></ellipse>
+              <ellipse class="binary-path binary-path-secondary" cx="-31.9" cy="0" rx="265.7" ry="263.8"></ellipse>
+              <circle class="barycenter-mark" cx="0" cy="0" r="3"></circle>
+            </svg>
+            <i class="binary-star binary-primary"></i>
+            <i class="binary-star binary-secondary"></i>
+          </div>
+          <div class="portrait-halo"></div>
+          <div class="portrait-wrap">
+            <img src="photos/prof.jpg" alt="Ayanah Cason" />
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about">
+          <span>Scroll to explore</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
 
-				<header class="major container medium">
-					<h2>I explore how our universe's
-					<br />
-					metallicity abundancee and evolution 
-					<br />
-					impacts different astrophysical systems!</h2>
-					<!--
-					<p>Tellus <br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
-				</header>
+      <section id="about" class="about section">
+        <div class="section-heading about-heading reveal">
+          <p class="eyebrow">01 · About me</p>
+          <div class="about-title-row">
+            <div class="about-heading-portrait">
+              <img src="photos/prof.jpg" alt="Ayanah Cason" />
+            </div>
+            <h2>Ayanah L <span class="gradient-text">Cason</span></h2>
+          </div>
+          <p>Hover over a planet to learn what keeps me in orbit.</p>
+        </div>
 
-				<div class="box alt container">
-					<section class="feature left">
-						<a href="#" class="image"> <img src="images/AyanahwithComputer.JPG" alt=""></a>
-						<div class="content">
-							<h3>About Me</h3>
-							<p>An infinitesimal slice of: "The World of Ayanah."</p>
-						</div>
-					</section>
-					<section class="feature right">
-						<a href="#" class="image"> <img src="images/AyanahandAliza.JPG" alt="" ></a>
-						<div class="content">
-							<h3>Research</h3>
-							<p>Research questions I am currently pursuing.</p>
-						</div>
-					</section>
-					<section class="feature left">
-						<a href="#" class="image"><img src="images/ExtraPic.JPG" alt="" ></a>
-						<div class="content">
-							<h3>Extracirriculars</h3>
-							<p>When I am not a professional, I like to...</p>
-						</div>
-					</section>
-				</div>
+        <div class="solar-layout">
+          <div class="solar-system reveal" aria-label="Interactive orbit menu">
+            <div class="sun" aria-label="Ayanah, the central star">
+              <span class="star-core"></span>
+              <span class="star-ray ray-one"></span>
+              <span class="star-ray ray-two"></span>
+              <span class="star-ray ray-three"></span>
+              <span class="star-ray ray-four"></span>
+              <span class="sun-glow"></span>
+            </div>
+            <button class="planet planet-about is-active" data-panel="story" data-orbit="story" type="button">
+              <span class="planet-core"></span><strong>My story</strong>
+            </button>
+            <button class="planet planet-research" data-panel="research" data-orbit="research" type="button">
+              <span class="planet-core">
+                <i class="moon moon-one"></i>
+                <i class="moon moon-two"></i>
+                <i class="moon moon-three"></i>
+              </span>
+              <strong>Research</strong>
+            </button>
+            <button class="planet planet-life" data-panel="life" data-orbit="life" type="button">
+              <span class="planet-core">
+                <i class="moon moon-one"></i>
+                <i class="moon moon-two"></i>
+              </span>
+              <strong>Beyond work</strong>
+            </button>
+          </div>
 
-				<!--
-				<div class="box container">
-					<header>
-						<h2>A lot of generic stuff</h2>
-					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
-						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Blockquote</h3>
-						</header>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-					</section>
-					<section>
-						<header>
-							<h3>Divider</h3>
-						</header>
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-						<hr />
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Unordered List</h3>
-						</header>
-						<ul class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ul>
-					</section>
-					<section>
-						<header>
-							<h3>Ordered List</h3>
-						</header>
-						<ol class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ol>
-					</section>
-					<section>
-						<header>
-							<h3>Table</h3>
-						</header>
-						<div class="table-wrapper">
-							<table class="default">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
-							<div class="row">
-								<div class="col-6 col-12-mobilep">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="col-6 col-12-mobilep">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
-				</div>
-				-->
+          <div class="orbit-content reveal" aria-live="polite">
+            <article class="orbit-panel is-active" data-panel-content="story">
+              <p class="panel-number">PLANET 01</p>
+              <h3>Curiosity is my compass.</h3>
+              <p>
+                I’m a scientist, mentor, and lifelong learner. My path through physics has always
+                been about asking better questions and making space for more people to ask theirs.
+              </p>
+              <figure class="panel-photo panel-photo-story">
+                <img src="photos/my-story-outdoors.jpg" alt="Ayanah smiling outdoors in a red jacket" />
+              </figure>
+            </article>
+            <article class="orbit-panel" data-panel-content="research" hidden>
+              <p class="panel-number">PLANET 02</p>
+              <h3>I read the fingerprints of stars.</h3>
+              <p>
+                My work uses metallicity abundance and computational analysis to understand how
+                astrophysical systems form, change, and carry the history of their environments.
+              </p>
+              <figure class="panel-photo panel-photo-portrait">
+                <img src="photos/research-aas.png" alt="Ayanah at an American Astronomical Society conference" />
+              </figure>
+            </article>
+            <article class="orbit-panel" data-panel-content="life" hidden>
+              <p class="panel-number">PLANET 03</p>
+              <h3>A whole universe beyond the lab.</h3>
+              <p>
+                Community, creativity, travel, and the people I love keep my perspective wide.
+                Science is part of my world, not the whole of it.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-				<footer class="major container medium">
-					<h3>Get shady with science</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button">Join our crew</a></li>
-					</ul>
-				</footer>
+      <section id="journey" class="journey section">
+        <div class="journey-nebula" aria-hidden="true"></div>
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 · My journey</p>
+          <h2>A path written in <span class="gradient-text">starlight</span></h2>
+          <p>Each chapter brought a new question into focus.</p>
+        </div>
 
-			</div>
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"><span></span></div>
+          <article class="timeline-node timeline-left reveal">
+            <div class="timeline-dot"><span>01</span></div>
+            <figure class="timeline-hero"><img src="photos/aliza.jpg" alt="Ayanah with a friend" /></figure>
+            <div class="timeline-copy">
+              <p class="timeline-date">THE COMMUNITY · NOW</p>
+              <h3>Sharing the sky</h3>
+              <p>WIP</p>
+              <span class="tag">MENTORSHIP</span>
+            </div>
+          </article>
+          <article class="timeline-node timeline-right reveal">
+            <div class="timeline-dot"><span>02</span></div>
+            <figure class="timeline-hero"><img src="photos/presenting.jpg" alt="Ayanah presenting her research" /></figure>
+            <div class="timeline-copy">
+              <p class="timeline-date">THE WORK · NOW</p>
+              <h3>Tracing metallicity</h3>
+              <p>WIP</p>
+              <span class="tag">RESEARCH</span>
+            </div>
+          </article>
+          <article class="timeline-node timeline-left reveal">
+            <div class="timeline-dot"><span>03</span></div>
+            <figure class="timeline-logo timeline-logo-lanl"><img src="photos/lanl-logo.png" alt="Los Alamos National Laboratory" /></figure>
+            <div class="timeline-copy">
+              <p class="timeline-date">LOS ALAMOS NATIONAL LABORATORY</p>
+              <h3>Computational science at Los Alamos</h3>
+              <p>WIP</p>
+              <span class="tag">NATIONAL LAB</span>
+            </div>
+          </article>
+          <article class="timeline-node timeline-right reveal">
+            <div class="timeline-dot"><span>04</span></div>
+            <figure class="timeline-logo timeline-logo-bridge"><img src="photos/fisk-vanderbilt-bridge-logo.jpg" alt="Fisk-Vanderbilt Master's-to-PhD Bridge Program" /></figure>
+            <div class="timeline-copy">
+              <p class="timeline-date">THE BRIDGE</p>
+              <h3>Fisk–Vanderbilt</h3>
+              <p>WIP</p>
+              <a class="tag tag-link" href="https://www.fisk-vanderbilt-bridge.org/ayanah-cason" target="_blank" rel="noreferrer">BRIDGE PROFILE ↗</a>
+            </div>
+          </article>
+          <article class="timeline-node timeline-left reveal">
+            <div class="timeline-dot"><span>05</span></div>
+            <figure><img src="photos/physics-metallicity-blackboard.jpg" alt="Physics and metallicity calculations written on a blackboard" /></figure>
+            <div class="timeline-copy">
+              <p class="timeline-date">THE BEGINNING</p>
+              <h3>Physics found me</h3>
+              <p>WIP</p>
+              <span class="tag">EARLY STUDIES</span>
+            </div>
+          </article>
+          <article class="timeline-node timeline-right reveal">
+            <div class="timeline-dot"><span>06</span></div>
+            <figure class="timeline-logo"><img src="photos/unlv-logo.png" alt="University of Nevada, Las Vegas" /></figure>
+            <div class="timeline-copy">
+              <p class="timeline-date">UNDERGRADUATE</p>
+              <h3>University of Nevada, Las Vegas</h3>
+              <p>WIP</p>
+              <span class="tag">UNDERGRADUATE</span>
+            </div>
+          </article>
+        </div>
+      </section>
 
-		<!-- Footer -->
-			<div id="footer">
-				<div class="container medium">
+      <section id="publications" class="publications section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 · Selected work</p>
+          <h2>Research in <span class="gradient-text">motion</span></h2>
+        </div>
+        <div class="research-layout">
+          <aside class="research-callout reveal">
+            <figure><img src="photos/presenting.jpg" alt="Ayanah discussing a metallicity plot" /></figure>
+            <div class="research-callout-copy">
+              <p class="work-type">FEATURED RESEARCH</p>
+              <h3>How metals trace a galaxy’s whole life story</h3>
+              <p>Exploring abundance, evolution, and what stellar systems remember about their origins.</p>
+              <a href="https://www.semanticscholar.org/author/Ayanah-Cason/2280667155" target="_blank" rel="noreferrer">View papers <span>↗</span></a>
+            </div>
+          </aside>
+          <div class="publication-feed reveal">
+            <div class="publication-feed-header">
+              <div>
+                <p class="work-type">PUBLICATIONS</p>
+                <h3>Latest papers</h3>
+              </div>
+              <a href="https://www.semanticscholar.org/author/Ayanah-Cason/2280667155" target="_blank" rel="noreferrer">Semantic Scholar <span>↗</span></a>
+            </div>
+            <p id="publication-status" class="publication-status" aria-live="polite">Showing publication records from Semantic Scholar.</p>
+            <div id="publication-list" class="publication-list">
+              <a class="paper-tile" href="https://www.semanticscholar.org/paper/a9cfca244bee70d411d5755a605392b18b94aa37" target="_blank" rel="noreferrer">
+                <span class="paper-journal"><em>Research Notes of the AAS</em></span>
+                <strong>Using the COSMIC Population Synthesis Code to Investigate How Metallicity Affects the Rates of Interacting Binaries</strong>
+                <span class="paper-authors">Ayanah Cason · N. Lloyd-Ronning · Roseanne Cheng</span>
+                <time datetime="2024-05-30">30/05/2024 Published</time>
+              </a>
+              <a class="paper-tile" href="https://www.semanticscholar.org/paper/732e66b09497a740982067f626c92db8b6046833" target="_blank" rel="noreferrer">
+                <span class="paper-journal"><em>Technical report</em></span>
+                <strong>SULI Peer Review</strong>
+                <span class="paper-authors">Ayanah Cason</span>
+                <time datetime="2024-05-07">07/05/2024 Published</time>
+              </a>
+              <a class="paper-tile" href="https://www.semanticscholar.org/paper/206e63bad0126d7e343516e5f7ef7c338667a364" target="_blank" rel="noreferrer">
+                <span class="paper-journal"><em>Technical report</em></span>
+                <strong>Massive Stars in Interacting Binaries - Investigating the Progenitors of Gamma-ray Bursts</strong>
+                <span class="paper-authors">Ayanah Cason</span>
+                <time datetime="2024-04-23">23/04/2024 Published</time>
+              </a>
+              <a class="paper-tile" href="https://www.semanticscholar.org/paper/5b3c185d888304660fbe7c6089b6500046184da8" target="_blank" rel="noreferrer">
+                <span class="paper-journal"><em>Technical report</em></span>
+                <strong>Los Alamos National Laboratory: SULI Appointment</strong>
+                <span class="paper-authors">Ayanah Cason</span>
+                <time datetime="2024-01-08">08/01/2024 Published</time>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-					<header class="major last">
-						<h2>Questions or comments?</h2>
-					</header>
+      <section id="contact" class="contact section">
+        <div class="contact-card reveal">
+          <span class="contact-star" aria-hidden="true">✦</span>
+          <p class="eyebrow">04 · Make contact</p>
+          <h2>Let’s explore what’s <span class="gradient-text">out there.</span></h2>
+          <p>I’m open to research collaborations, data science opportunities, and conversations with curious people.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:hello@example.com">Send an email <span>↗</span></a>
+            <a class="text-link" href="https://www.linkedin.com/in/ayanah-cason-2994361ba/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <a class="text-link" href="https://github.com/ayanah1121" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+    <footer>
+      <a class="brand" href="#top"><span class="brand-orbit"></span><span>AC</span></a>
+      <p>Designed for a universe still unfolding.</p>
+      <p>© <span id="year"></span> Ayanah L Cason</p>
+    </footer>
 
-					<form method="post" action="#">
-						<div class="row">
-							<div class="col-6 col-12-mobilep">
-								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="col-6 col-12-mobilep">
-								<input type="email" name="email" placeholder="Email" />
-							</div>
-							<div class="col-12">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
-							</div>
-							<div class="col-12">
-								<ul class="actions special">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-					</ul>
-
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-				</div>
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
